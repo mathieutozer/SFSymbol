@@ -10,6 +10,7 @@ import XCTest
 import UIKit
 @testable import SFSymbol
 
+@available(iOS 13, *)
 class SFSymbolTests: XCTestCase {
     func testAllSymbolsExist() {
         for symbol in SFSymbol.allCases {
